@@ -1,0 +1,132 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de comidas rápidas</title>
+    <link rel="stylesheet" href="./comidas.css">
+</head>
+<body>
+    <h1>COMIDAS RÁPIDAS</h1>
+    <div class="comidarcontainer">
+    <div class="comi1">
+        <img src="./img/panzzeroti.jpg" alt="" width="300px" height="250px">
+        <a href="modal.html" class="btn3"> <h3>Panzzerotis</h3>
+            
+        </a>
+        
+        <h4>Precio: $3,500</h4>
+       
+        <img src="./img/perros.jpg" alt="" width="300px" height="250px">
+        <h3>Perros</h3>
+        <h4>Precio: $4,500</h4>
+
+    </div>
+    <div class="comi2">
+        <img src="./img/palitodequeso.jpg" alt="" width="300px" height="250px">
+        <a href="modal.html" class="btn3"> <h3>Palito de queso</h3>
+            
+        </a>
+        <h4>Precio pequeño: $1,800</h4>
+    
+
+        <img src="./img/burros.jpg" alt="" width="300px" height="250px">
+        <h3>Burritos</h3>
+        <h4>Precio: $6,000</h4>
+    </div>
+    <div class="comi3">
+        <img src="./img/salchipapas.jpg" alt="" width="300px" height="250px">
+        <h3>Salchipapas</h3>
+        <h4>Precio: $3,500</h4>
+
+        <img src="./img/pastelarequipe.jpg" alt="" width="300px" height="250px">
+        <h3>Pastel de arequipe</h3>
+        <h4>Precio: $3,000</h4>
+    </div>
+    <div class="comi4">
+        <img src="./img/jamonyqueso.jpg" alt="" width="300px" height="250px">
+        <h3>Pastel de jamón y queso</h3>
+        <h4>Precio: $3,000</h4>
+
+        <img src="./img/hamburguesa.jpg" alt="" width="300px" height="250px">
+        <h3>Hamburguesa</h3>
+        <h4>Precio: $3,500</h4>
+    </div>
+
+</div>
+    
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de comidas rápidas</title>
+    <link rel="stylesheet" href="./comidas.css">
+    <script defer src="./carrito.js"></script>
+</head>
+<body>
+    <h1>COMIDAS RÁPIDAS</h1>
+    <div class="comidarcontainer">
+        <div class="comi1">
+            <img src="./img/panzzeroti.jpg" alt="Panzzerotis" width="300px" height="250px">
+            <h3>Panzzerotis</h3>
+            <h4>Precio: $3,500</h4>
+            <button class="add-to-cart" data-name="Panzzerotis" data-price="3500">Añadir al carrito</button>
+<br>
+<br>
+            <img src="./img/perros.jpg" alt="Perros" width="300px" height="250px">
+            <h3>Perros</h3>
+            <h4>Precio: $4,500</h4>
+            <button class="add-to-cart" data-name="Perros" data-price="4500">Añadir al carrito</button>
+
+        </div>
+        <div class="comi2">
+            <img src="./img/palitodequeso.jpg" alt="Palito de queso" width="300px" height="250px">
+            <h3>Palito de queso</h3>
+            <h4>Precio pequeño: $1,800</h4>
+            <button class="add-to-cart" data-name="Palito de queso" data-price="1800">Añadir al carrito</button>
+<br>
+<br>
+            <img src="./img/burros.jpg" alt="Burritos" width="300px" height="250px">
+            <h3>Burritos</h3>
+            <h4>Precio: $6,000</h4>
+            <button class="add-to-cart" data-name="Burritos" data-price="6000">Añadir al carrito</button>
+        </div>
+        <div class="comi3">
+            <img src="./img/salchipapas.jpg" alt="Salchipapas" width="300px" height="250px">
+            <h3>Salchipapas</h3>
+            <h4>Precio: $3,500</h4>
+            <button class="add-to-cart" data-name="Salchipapas" data-price="3500">Añadir al carrito</button>
+            <br>
+            <br>
+            <img src="./img/pastelarequipe.jpg" alt="Pastel de arequipe" width="300px" height="250px">
+            <h3>Pastel de arequipe</h3>
+            <h4>Precio: $3,000</h4>
+            <button class="add-to-cart" data-name="Pastel de arequipe" data-price="3000">Añadir al carrito</button>
+        </div>
+        <div class="comi4">
+            <img src="./img/jamonyqueso.jpg" alt="Pastel de jamón y queso" width="300px" height="250px">
+            <h3>Pastel de jamón y queso</h3>
+            <h4>Precio: $3,000</h4>
+            <button class="add-to-cart" data-name="Pastel de jamón y queso" data-price="3000">Añadir al carrito</button>
+            <br>
+            <br>
+            <img src="./img/hamburguesa.jpg" alt="Hamburguesa" width="300px" height="250px">
+            <h3>Hamburguesa</h3>
+            <h4>Precio: $3,500</h4>
+            <button class="add-to-cart" data-name="Hamburguesa" data-price="3500">Añadir al carrito</button>
+        </div>
+    </div>
+
+    <h2>Carrito</h2>
+    <div id="cart">
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="total">$0</span></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cta
+{
+    background-color: #a18262;
+    color: #0f0f0f;
+    text-decoration: none;
+    padding: 1.2em 3em;
+    border-radius: 10px;
+    margin: auto;
+}
+.modal
+{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    background: #a58080;
+   
+    --opacity: 0;
+    --pointer: none;
+
+    opacity: var(--opacity);
+    pointer-events: var(--pointer);
+    transition: opacity .5s;
+  
+}
+/* target define el objetivo de la clase principal y es la subclase */
+.modal:target
+{
+    --opacity:1;
+    --pointer:unset;
+}
+.modal__container
+{
+    margin-top: 100px;
+    margin-left: 400px;
+    background: #ffffff;
+    width: 90%;
+    justify-content: center;
+    max-width: 600px;
+    max-height: 90%;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 1em;
+    
+}
+.modal__picture
+{
+    width: 80%;
+    margin: 150px;
+    max-width: 400px;
+    margin-bottom: 2em;
+    margin-top: 50px;
+}
+.modal__img
+{
+    width: 70%;
+    display: block;
+}
+.modal__title
+{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.modal__parrafo
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+.modal__cerrar
+{
+    display: inline-block;
+    border: 1px solid #a18262;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}

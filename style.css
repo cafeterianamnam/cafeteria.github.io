@@ -1,0 +1,398 @@
+*
+{
+margin: 0%;  
+padding: 0%; 
+box-sizing: border-box; 
+list-style: none;
+text-decoration: none;
+scroll-behavior: smooth;
+scroll-padding-top: 2rem;
+font-family: 'Times New Roman', Times, serif;
+
+}
+header
+{
+ z-index: 1000;
+ display: flex;
+ position: fixed;   
+ width: 100%;
+ align-items: center;
+ justify-content: space-between;
+ background: #CDB792;
+ padding: 13px 10%;
+ border-radius: 100px;
+}
+.logo
+{
+ font-size: 1.61rem;   
+ font-weight: 600;
+ color:#070707
+}
+.logo span
+{
+ font-size: 1.81rem;
+ font-weight: 600;
+ color: #070707
+}
+
+.navbar
+{
+display: flex;
+background: #CDB792;
+}
+.navbar a
+{
+font-size: 1rem;
+padding: 10px 20px;
+font-weight: 600;
+color: #070707;
+}
+.navbar a:hover
+{
+ color: #AC946D;
+}
+#menu-ico
+{
+font-size: 24px;
+cursor: pointer;
+z-index: 10001;
+display: none;
+}
+.Inicio
+{
+    display: grid;
+    position: relative;
+    /* width: 100%;
+    min-height: 100vh; */
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 50px 5%;
+    background-color: #E8DCB5;
+}
+
+.Inicio-img img
+{
+    width: 80%;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.text a
+{
+ margin: 10px;
+ padding: 10px;
+}
+.text
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+/* .text h1 
+{
+    padding: 10px 10%;
+    
+} */
+.text h2
+{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 10%;
+    
+  
+}
+.text h1
+{
+    font-size: 200%;
+} 
+.services-container 
+{
+    background-color: #B3996E;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.services-container .services1
+{
+    /* display: grid;
+    grid-template-columns: repeat( 3, 1fr, 1fr, 1fr); */
+    width: 300px;
+    margin: 20px;
+    padding: 30px; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #99825d;
+    border-radius: 20px;
+}
+.services1
+{
+    width: 300px;
+    padding: 30px;
+    background:#E8DCB5;
+    color: #000000;
+}
+.services1:hover
+{
+ background-color: #99825d;
+}
+.services1 img 
+{
+    width: 80%;
+    height: 60%;
+}
+
+.services1 a:hover
+{
+    background: #4d4c53;
+}
+.services1 a 
+{
+    background: #B3996E;
+    color: var(--main-color);
+}
+.services1 a:hover
+{
+    background: #99825d;
+}
+.btn3
+{
+    display: inline-block;
+    background:#e7e7e7;
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem;   
+}
+.services h1
+{
+ text-align: center;
+ background-color: #B3996E;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 200%;
+}
+.btn4
+{
+    /* display: grid;
+    grid-template-columns: repeat(1fr, 1fr, 1fr); */
+    /* display: inline-block; */
+    background:#E8DCB5;
+    color: #000000;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem;  
+    margin-left: 60px;
+    /* margin-top: 350px; */
+     margin-right: 50px; 
+     margin-bottom: 20px;
+    
+}
+.btn4:hover
+{
+    background-color: #99825d;
+}
+.about-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    background-color: #E8DCB5;
+}
+.about-img img
+{
+    width: 60%;
+    border-radius: 0.5rem;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-text p
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 70px;
+} 
+.about-text h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.about-text h2
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.horarios
+{
+    background-color:#B3996E ;
+    height: 550px;
+    /* margin-bottom: 20px;
+    padding: 30px; */
+}
+.horarioscontainer
+{
+    background-color: #CDB792;
+    margin: 20px;
+}
+
+.horarioscontainer
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin: 20px; */
+    text-align: center; 
+    padding: 10px; 
+   
+}
+h1
+{
+    padding: 30px;
+}
+
+h2
+{
+    text-align: center;
+    padding: 15px;
+    /* margin-top: 60px; */
+}
+.btn
+{
+    
+    background:#B3996E;
+    color: #000000;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;   
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+footer{
+    display: flex;
+    
+    justify-content: center;
+    text-align: center;
+    background-color: #E8DCB5;
+    height: 500px;
+    width: 100%;
+}
+.h2-p
+{
+    text-align: center;
+    padding: 15px;
+    margin-top: 60px;
+}
+#pepito
+{
+    margin-right: 200px;
+}
+#pepita
+{
+    margin-left: 200px;
+}
+section.horarios {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.horarioscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #B3996E;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+button {
+    background-color: #B3996E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #B3996E;
+}
+
+/* Estilos del modal */
+#editModal {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none;
+    border-radius: 8px;
+}
+
+#editModal h3 {
+    margin-bottom: 15px;
+}
+
+#editModal label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#editModal input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#editModal button {
+    width: 48%;
+    margin-right: 4%;
+}
+
+#editModal button:last-child {
+    margin-right: 0;
+}
+
+
+
+

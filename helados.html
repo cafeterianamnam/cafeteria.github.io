@@ -1,0 +1,131 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de helados</title>
+    <link rel="stylesheet" href="comidas.css">
+</head>
+<body>
+    <h1>HELADOS</h1>
+    <div class="helacontainer">
+    <div class="hela1">
+        <img src="./img/mangobiche.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de mango biche</h3>
+        <h4>Precio: $2,000</h4>
+       
+        <img src="./img/maracumango.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de maracumango</h3>
+        <h4>Precio: $2,000</h4>
+
+    </div>
+    <div class="hela2">
+        <img src="./img/coco.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de coco</h3>
+        <h4>Precio: $2,000</h4>
+
+        <img src="./img/oreo.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de oreo</h3>
+        <h4>Precio: $2,000</h4>
+    </div>
+    <div class="hela3">
+        <img src="./img/cafe.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de café</h3>
+        <h4>Precio: $2,000</h4>
+
+        <img src="./img/milo.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de milo</h3>
+        <h4>Precio: $2,000</h4>
+    </div>
+    <div class="hela4">
+        <img src="./img/arequipe.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de arequipe</h3>
+        <h4>Precio: $2,000</h4>
+
+        <img src="./img/fresa.jpg" alt="" width="300px" height="250px">
+        <h3>Crema de fresa</h3>
+        <h4>Precio: $2,000</h4>
+    </div>
+
+</div>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de helados</title>
+    <link rel="stylesheet" href="comidah.css">
+
+</head>
+<body>
+    <h1>HELADOS</h1>
+    <div class="helacontainer">
+        <div class="hela1">
+            <img src="./img/mangobiche.jpg" alt="Crema de mango biche" width="300px" height="250px">
+            <h3>Crema de mango biche</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de mango biche" data-price="2000">Añadir al carrito</button>
+<br>
+<br>
+            <img src="./img/maracumango.jpg" alt="Crema de maracumango" width="300px" height="200px">
+            <h3>Crema de maracumango</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de maracumango" data-price="2000">Añadir al carrito</button>
+        </div>
+        
+        <div class="hela2">
+            <img src="./img/coco.jpg" alt="Crema de coco" width="300px" height="250px">
+            <h3>Crema de coco</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de coco" data-price="2000">Añadir al carrito</button>
+            <br>
+            <br>
+            <img src="./img/oreo.jpg" alt="Crema de oreo" width="300px" height="250px">
+            <h3>Crema de oreo</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de oreo" data-price="2000">Añadir al carrito</button>
+        </div>
+        
+        <div class="hela3">
+            <img src="./img/cafe.jpg" alt="Crema de café" width="300px" height="200px">
+            <h3>Crema de café</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de café" data-price="2000">Añadir al carrito</button>
+            <br>
+            <br>
+            <img src="./img/milo.jpg" alt="Crema de milo" width="300px" height="250px">
+            <h3>Crema de milo</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de milo" data-price="2000">Añadir al carrito</button>
+        </div>
+        
+        <div class="hela4">
+            <img src="./img/arequipe.jpg" alt="Crema de arequipe" width="300px" height="250px">
+            <h3>Crema de arequipe</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de arequipe" data-price="2000">Añadir al carrito</button>
+            <br>
+            <br>
+            <img src="./img/fresa.jpg" alt="Crema de fresa" width="300px" height="250px">
+            <h3>Crema de fresa</h3>
+            <h4>Precio: $2,000</h4>
+            <button class="add-to-cart" data-name="Crema de fresa" data-price="2000">Añadir al carrito</button>
+        </div>
+    </div>
+    
+    <div id="cart">
+        <h2>Carrito de compras</h2>
+        <ul id="cart-items">
+            <!-- Los items del carrito se añadirán aquí mediante JavaScript -->
+        </ul>
+        <p id="cart-total">Total: $0</p>
+    </div>
+
+    <script src="carritoh.js" defer></script>
+</body>
+</html>

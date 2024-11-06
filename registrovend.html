@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="registro.css">
+  <title>Registro vendedores</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Registro de vendedores</h4>
+    <form action="registrovend.php" method="post">
+      <label for="Nombre">Nombre</label>
+      <input class="controls" type="text" name="Nombres" id="Nombre" placeholder="Ingrese su Nombre" required>
+
+      <label for="Apellido">Apellido</label>
+      <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" required>
+
+      <label for="Correo">Correo</label>
+      <input class="controls" type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo" required>
+
+      <label for="Contrasena">Contraseña</label>
+      <input class="controls" type="password" name="Contrasena" id="Contrasena" placeholder="Ingrese su Contraseña" required>
+
+      <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a></p>
+      <input class="botons" type="submit" value="Registrar">
+      <p><a href="inicio_vendedores.html">¿Ya tengo Cuenta?</a></p>
+    </form>
+  </section>
+</body>
+</html>

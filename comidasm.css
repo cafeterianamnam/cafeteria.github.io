@@ -1,0 +1,105 @@
+/* Reseteo de márgenes, rellenos y box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E8DCB5;
+    padding: 20px;
+}
+
+/* Estilo del título principal */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de las filas de productos */
+.mecatocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centra las filas en el contenedor principal */
+}
+
+/* Estilos comunes para cada producto */
+.meca1, .meca2, .meca3, .meca4 {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ancho fijo */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para las imágenes de productos */
+.meca1 img, .meca2 img, .meca3 img, .meca4 img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 300px; /* Altura fija para uniformidad */
+    object-fit: cover; /* Mantiene la proporción y cubre el área */
+    border-bottom: 2px solid #eee;
+}
+
+/* Estilo de los nombres y precios de los productos */
+.meca1 h3, .meca2 h3, .meca3 h3, .meca4 h3 {
+    margin: 10px 0;
+    color: #555;
+}
+
+.meca1 h4, .meca2 h4, .meca3 h4, .meca4 h4 {
+    color: #888;
+    margin-bottom: 15px;
+}
+
+/* Estilo del botón "Añadir al carrito" */
+.add-to-cart {
+    background-color: #99825d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #E8DCB5;
+}
+
+/* Estilo del contenedor del carrito */
+#cart {
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la lista de productos en el carrito */
+#cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cart li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Estilo del total en el carrito */
+#cart p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+

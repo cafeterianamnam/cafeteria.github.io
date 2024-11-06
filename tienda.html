@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda proyecto pia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sdjfs.js"></script>
+</head>
+<body>
+    <header>
+            <a href="#" class="logo">Ñam<span>Ñam</span></a>
+            <div class="bx bx-menu" id="menu-ico"></div>
+            <ul class="navbar">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Catálogo</a></li>
+                <li><a href="#sobren">Sobre nosotros</a></li>
+                <li><a href="#horarios">Horarios</a></li>
+                <li><a href="metodo.html">Método de pago</a></li>
+            </ul>
+    </header>
+    <section class="Inicio" id="inicio"> 
+    <div class="Inicio-img">
+         <img src="./img/cafeteria.jpg" alt="">
+    </div>
+    <div class="text">
+       
+        <b><h1>¡BIENVENIDOS A LA CAFETERÍA ESCOLAR!</h1></b>
+        <h2>Aquí encontrarás una diversidad de productos para que te alimentes durante toda la jornada escolar y tengas energía
+        </h2>
+        <br>
+        <h3> ¡Escoge el tuyo!</h3>
+        <br>
+        <br>
+        <a href="inicio_estudiantes.html" class="btn">Ingreso estudiantes</a>
+        <a href="inicio_vendedores.html" class="btn">Ingreso vendedores</a>
+        
+    </div>
+    </section>
+    <section class="services" id="servicios">
+    <h1>Catálogo de productos</h1>
+        <div class="services-container">
+            <div class="services1">
+                 <img src="./img/heladito.jpg" alt="">
+                 <h3>Helados</h3>
+                <a href="helados.html" class="btn3">Ver los productos</a>
+          </div>
+          <div class="services1">
+            <img src="./img/hamburguesaaa.PNG" >
+            <h3>Comidas rápidas</h3>
+           <a href="comidasr.html" class="btn3">Ver los productos</a>
+     </div>
+     <div class="services1">
+        <img src="./img/mecato.PNG" alt="">
+        <h3>Mecato</h3>
+       <a href="mecato.html" class="btn3">Ver los productos</a>
+    </div>
+    <div class="btn4">
+        <a href="masprod.html" class="btn4">Más productos</a>
+    </div>
+    <br>
+    <br>
+      </div>    
+    </section>
+    <section class="sobren" id="sobren">
+    <div class="about-container">
+        <div class="about-img">
+            <img src="./img/cafeteriaaa.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Sobre nosotros</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+        <p>Aquí queremos darte a conocer de forma muy fácil y eficiente
+            todos los productos disponibles que tenemos para ofrecerte y 
+            que puedas de manera muy sencilla y práctica elegir entre que producto comprar que se moldeé a tu presupuesto. </p>
+            <br>
+            <br>
+            <br>
+            <h2>¡Queremos atenderte, compra aquí!</h2>
+      </div>
+    </div>
+    </section> 
+    <section class="horarios" id="horarios">
+        <h2>Nuestros horarios de servicio</h2>
+        <div class="horarioscontainer">
+            <script src="calendario.js"></script>
+            <table id="horariosTable">
+                <thead>
+                    <tr>
+                        <th>Días</th>
+                        <th>Jornada Mañana</th>
+                        <th>Jornada Tarde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>8:30 am - 10:45 am</td>
+                        <td>1:30 pm - 4:45 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>7:30 am - 10:30 am</td>
+                        <td>1:00 pm - 4:30 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>8:30 am - 10:45 am</td>
+                        <td>1:30 pm - 4:45 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>7:30 am - 10:30 am</td>
+                        <td>1:00 pm - 4:30 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>8:30 am - 10:45 am</td>
+                        <td>1:30 pm - 4:45 pm</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <button id="editButton">Editar Horarios</button>
+            </div>
+        </div>
+        
+        <!-- Modal para editar -->
+        <div id="editModal" style="display:none;">
+            <h3>Editar Horario</h3>
+            <label for="day">Día:</label>
+            <input type="text" id="day" disabled><br>
+            <label for="morning">Jornada Mañana:</label>
+            <input type="text" id="morning"><br>
+            <label for="afternoon">Jornada Tarde:</label>
+            <input type="text" id="afternoon"><br>
+            <button id="saveButton">Guardar</button>
+            <button id="cancelButton">Cancelar</button>
+        </div>
+        
+    </section>
+        
+    <footer>
+        <div class="footer">
+            <h2 class="h2-p">¡Te esperamos, recuerda que siempre estaremos a tu servicio! escribir informacion sobre el colegio, poner el logo, nombre de los creadores </h2>
+            
+            <img src="img/logo.png" alt="">
+            
+            <img src="img/pascual.gif" alt="" height="300" width="300" > 
+        </div>
+
+        
+    </footer>
+</body>
+</html>
+<input type="text">

@@ -1,0 +1,14 @@
+.btn {
+    padding: 10px 15px;
+    background-color: #4b3d2d; /* Color café oscuro */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Bordes redondos */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #6f5b47; /* Color café más claro al pasar el mouse */
+}
